@@ -83,6 +83,8 @@ h1 {
 @media (max-width: 1000px) {
   body {
     flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
   }
   #rocket {
     padding-top: 4%;

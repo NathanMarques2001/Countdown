@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico" />
+    <title>Document</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-    </style>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico">
-    <title>Countdown</title>
-</head>
-
-<body>
+  <body>
     <div class="container-left">
-        <h1>READY TO LAUNCH IN...</h1>
-        <div class="countdown-container" id="countdown">
-
-            <div class="countdown days">
-                <p class="text" id="days">00</p>
-            </div>
-            <p>&nbsp:&nbsp</p>
-            <div class="countdown hours">
-                <p class="text" id="hours">00</p>
-            </div>
-            <p>&nbsp:&nbsp</p>
-            <div class="countdown minutes">
-                <p class="text" id="minutes">00</p>
-            </div>
-            <p>&nbsp:&nbsp</p>
-            <div class="countdown seconds">
-                <p class="text" id="seconds">00</p>
-            </div>
+      <h1>READY TO LAUNCH IN...</h1>
+      <div id="countdown">
+        <div class="time-text">
+          <p class="name-text">Dias</p>
+          <div class="numero-pontuacao">
+            <span class="text" id="days">00</span>
+          </div>
         </div>
-        <div class="subscribe">
-            <p>
-                Inscreva-se para saber mais sobre o lançamento!
-            </p>
-
+        <div class="time-text"><span id="dois-pontos">&#58;</span></div>
+        <div class="time-text">
+          <p class="name-text">Horas</p>
+          <div class="numero-pontuacao">
+            <span class="text" id="hours">00</span>
+          </div>
         </div>
-        <div class="botao">
-            <button id="botao">Inscreva-se</button>
+        <div class="time-text"><span id="dois-pontos">&#58;</span></div>
+        <div class="time-text">
+          <p class="name-text">Minutos</p>
+          <div class="numero-pontuacao">
+            <span class="text" id="minutes">00</span>
+          </div>
         </div>
-
+        <div class="time-text"><span id="dois-pontos">&#58;</span></div>
+        <div class="time-text">
+          <p class="name-text">Segundos</p>
+          <div class="numero-pontuacao">
+            <span class="text" id="seconds">00</span>
+          </div>
+        </div>
+      </div>
+      <p id="subscribe">
+        Inscreva-se para saber mais sobre o lançamento!
+      </p>
+      <button id="botao">Inscreva-se</button>
     </div>
-
-    <div class="container-right">
-        <img src="assets/rocket.svg" alt="foguete">
-    </div>
-
-</body>
-
+    <img src="images/rocket.svg" alt="foguete" id="rocket" />
+  </body>
 </html>

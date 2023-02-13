@@ -1,6 +1,8 @@
 # Countdown
 
-<img src="./assets/preview.mp4" alt="video" >
+<video autoplay>
+  <source src="./assets/preview.mp4" type="video/mp4">
+</ video>
 
 >## 🚀 Trilha Fundamentar
 

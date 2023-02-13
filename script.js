@@ -1,4 +1,4 @@
-var finalDate = new Date('jan 1, 2023 00:00:00').getTime()
+var finalDate = new Date('dec 31, 2023 00:00:00').getTime()
 
 var x = setInterval(function () {
   var today = new Date().getTime()

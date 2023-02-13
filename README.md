@@ -1,6 +1,6 @@
 # Countdown
 
-<img src="preview.gif" alt="preview" >
+<img src="preview.gif" width=400px height=auto alt="preview" >
 
 >## 🚀 Trilha Fundamentar
 

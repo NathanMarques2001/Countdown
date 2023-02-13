@@ -1,6 +1,6 @@
 # Countdown
 
-![](./assets/preview.gif)
+https://user-images.githubusercontent.com/108840944/218567666-76afe33d-2bd0-4b09-8ba7-b4130420f543.mp4
 
 >## 🚀 Trilha Fundamentar
 
